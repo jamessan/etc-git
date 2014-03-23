@@ -1,0 +1,19 @@
+[user]
+	name = James McCoy
+	email = vega.james@gmail.com
+	signingkey = 331BA3DB
+[color]
+	branch = auto
+	status = auto
+	diff = auto
+[merge]
+	tool = vimdiff
+[merge "debchangelog"]
+	name = debchangelog merge driver
+	driver = dpkg-mergechangelogs -m %O %A %B %A
+[push]
+	default = matching
+[alias]
+	wdiff = diff --color-words
+[remote-hg]
+	hg-git-compat = true
