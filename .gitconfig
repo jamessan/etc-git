@@ -17,3 +17,5 @@
 	wdiff = diff --color-words
 [remote-hg]
 	hg-git-compat = true
+[url "ssh://git.jamessan.com"]
+	pushInsteadOf = http://git.jamessan.com
