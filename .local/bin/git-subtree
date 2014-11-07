@@ -1,2 +1,0 @@
-#!/bin/sh
-exec sh /usr/share/doc/git/contrib/subtree/git-subtree.sh "$@"
