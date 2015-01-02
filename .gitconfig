@@ -11,8 +11,6 @@
 [merge "debchangelog"]
 	name = debchangelog merge driver
 	driver = dpkg-mergechangelogs -m %O %A %B %A
-[push]
-	default = matching
 [alias]
 	wdiff = diff --color-words
 [remote-hg]
