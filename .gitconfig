@@ -16,7 +16,7 @@
 [remote-hg]
 	hg-git-compat = true
 [url "ssh://git.jamessan.com/git"]
-	pushInsteadOf = http://git.jamessan.com/cgit
+	pushInsteadOf = https://git.jamessan.com/cgit
 	pushInsteadOf = git://git.jamessan.com
 [push]
 	default = simple
