@@ -20,3 +20,5 @@
 	pushInsteadOf = git://git.jamessan.com
 [push]
 	default = simple
+[fetch]
+	prune = true
