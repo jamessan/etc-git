@@ -22,5 +22,3 @@
 	default = simple
 [fetch]
 	prune = true
-[commit]
-	gpgsign = true
