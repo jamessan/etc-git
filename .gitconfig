@@ -22,3 +22,5 @@
 	default = simple
 [fetch]
 	prune = true
+[diff]
+	mnemonicprefix = true
