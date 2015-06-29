@@ -8,7 +8,7 @@
 	diff = auto
 [merge]
 	tool = vimdiff
-[merge "debchangelog"]
+[merge "dpkg-mergechangelogs"]
 	name = debchangelog merge driver
 	driver = dpkg-mergechangelogs -m %O %A %B %A
 [alias]

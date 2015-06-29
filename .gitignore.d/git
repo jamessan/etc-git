@@ -1,8 +1,7 @@
 *
+!/.config
+!/.config/git
+!/.config/git/attributes
 !/.gitconfig
 !/.gitignore.d
 !/.gitignore.d/git
-!/.local
-!/.local/bin
-!/.local/bin/git-subtree
-!/.local/bin/git-remote-hg
