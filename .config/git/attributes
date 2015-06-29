@@ -1,1 +1,1 @@
-debian/changelog merge=debchangelog
+debian/changelog merge=dpkg-mergechangelogs
