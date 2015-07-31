@@ -29,3 +29,5 @@
 	mnemonicprefix = true
 [include]
 	path = ~/.config/git/private
+[credential]
+	helper = cache
