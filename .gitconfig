@@ -27,3 +27,5 @@
 	prune = true
 [diff]
 	mnemonicprefix = true
+[include]
+	path = ~/.config/git/private
