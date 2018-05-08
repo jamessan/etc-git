@@ -21,6 +21,9 @@
 [url "ssh://git.jamessan.com/git"]
 	pushInsteadOf = https://git.jamessan.com/cgit
 	pushInsteadOf = git://git.jamessan.com
+[url "git@salsa.debian.org:"]
+	insteadOf = salsa:
+	pushInsteadOf = https://salsa.debian.org/
 [push]
 	default = simple
 [fetch]
