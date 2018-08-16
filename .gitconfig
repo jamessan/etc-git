@@ -25,7 +25,7 @@
 	insteadOf = salsa:
 	pushInsteadOf = https://salsa.debian.org/
 [push]
-	default = simple
+	default = current
 [fetch]
 	prune = true
 [diff]
