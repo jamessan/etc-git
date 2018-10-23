@@ -2,6 +2,7 @@
 !/.config
 !/.config/git
 !/.config/git/attributes
+!/.config/git/debian.org
 !/.gitconfig
 !/.gitignore.d
 !/.gitignore.d/git

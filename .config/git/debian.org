@@ -1,0 +1,4 @@
+[user]
+	email = jamessan@debian.org
+[commit]
+	gpgsign = true

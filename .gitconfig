@@ -32,5 +32,7 @@
 	mnemonicprefix = true
 [include]
 	path = ~/.config/git/private
+[includeIf "gitdir:~/src/debian.org/"]
+	path = ~/.config/git/debian.org
 [credential]
 	helper = cache
