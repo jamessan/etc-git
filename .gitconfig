@@ -36,3 +36,5 @@
 	path = ~/.config/git/debian.org
 [credential]
 	helper = cache
+[init]
+	templatedir = ~/.config/git/templates

@@ -3,6 +3,13 @@
 !/.config/git
 !/.config/git/attributes
 !/.config/git/debian.org
+!/.config/git/templates
+!/.config/git/templates/hooks
+!/.config/git/templates/hooks/ctags
+!/.config/git/templates/hooks/post-checkout-ctags
+!/.config/git/templates/hooks/post-commit-ctags
+!/.config/git/templates/hooks/post-merge-ctags
+!/.config/git/templates/hooks/post-rewrite-ctags
 !/.gitconfig
 !/.gitignore.d
 !/.gitignore.d/git
