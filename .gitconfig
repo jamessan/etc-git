@@ -24,6 +24,9 @@
 [url "git@salsa.debian.org:"]
 	insteadOf = salsa:
 	pushInsteadOf = https://salsa.debian.org/
+[url "git@github.com:"]
+	insteadOf = gh:
+	pushInsteadOf = https://github.com/
 [push]
 	default = current
 [fetch]
