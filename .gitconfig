@@ -41,3 +41,5 @@
 	helper = cache
 [init]
 	templatedir = ~/.config/git/templates
+[log]
+	mailmap = true
