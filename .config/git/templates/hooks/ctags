@@ -1,13 +1,14 @@
 #!/bin/sh
 set -e
 
-dir=$(git rev-parse --git-dir)
+dir=$(git rev-parse --show-toplevel)
+abspath=$(echo "$dir" | sed 's/@/\@/g')
 if command -v ctags >/dev/null 2>&1; then
   trap 'rm -f "$dir/$$.tags"' EXIT
-  git ls-files | ctags --tag-relative=yes -L - -f "$dir/$$.tags" --extra=+fq --fields=+Sial --c-kinds=+p --c++-kinds=+p
+  git ls-files | sed "s@^@${abspath}/@" | ctags -L - -f "$dir/$$.tags" --extra=+fq --fields=+Sial --c-kinds=+p --c++-kinds=+p
   mv "$dir/$$.tags" "$dir/tags"
 fi
 
 if command -v cscope >/dev/null 2>&1; then
-  git ls-files | cscope -bq -i - -f "$dir/cscope.out"
+  git ls-files | sed "s@^@${abspath}/@" | cscope -bq -i - -f "$dir/cscope.out"
 fi
