@@ -33,6 +33,8 @@
 	prune = true
 [diff]
 	mnemonicprefix = true
+	colorMoved = dimmed-zebra
+	colorMovedWS = allow-indentation-change
 [include]
 	path = ~/.config/git/private
 [includeIf "gitdir:~/src/debian.org/"]
