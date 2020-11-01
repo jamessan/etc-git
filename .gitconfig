@@ -48,3 +48,5 @@
 	decorate = auto
 [pull]
 	ff = only
+[feature]
+	manyFiles = true
