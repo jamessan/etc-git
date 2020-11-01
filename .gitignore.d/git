@@ -3,6 +3,7 @@
 !/.config/git
 !/.config/git/attributes
 !/.config/git/debian.org
+!/.config/git/emc.com
 !/.config/git/templates
 !/.config/git/templates/hooks
 !/.config/git/templates/hooks/ctags

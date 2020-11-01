@@ -35,10 +35,6 @@
 	mnemonicprefix = true
 	colorMoved = dimmed-zebra
 	colorMovedWS = allow-indentation-change
-[include]
-	path = ~/.config/git/private
-[includeIf "gitdir:~/src/debian.org/"]
-	path = ~/.config/git/debian.org
 [credential]
 	helper = cache
 [init]
@@ -50,3 +46,9 @@
 	ff = only
 [feature]
 	manyFiles = true
+[include]
+	path = ~/.config/git/private
+[includeIf "gitdir:~/src/debian.org/"]
+	path = ~/.config/git/debian.org
+[includeIf "gitdir:/home/cyc/**"]
+	path = ~/.config/git/emc.com
