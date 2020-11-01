@@ -39,6 +39,8 @@
 	ff = only
 [feature]
 	manyFiles = true
+[blame]
+	coloring = repeatedLines
 [include]
 	path = ~/.config/git/private
 [includeIf "gitdir:~/src/debian.org/"]
