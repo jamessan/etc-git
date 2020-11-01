@@ -3,9 +3,7 @@
 	email = jamessan@jamessan.com
 	signingkey = DFE691AE331BA3DB
 [color]
-	branch = auto
-	status = auto
-	diff = auto
+	ui = auto
 [merge "dpkg-mergechangelogs"]
 	name = debchangelog merge driver
 	driver = dpkg-mergechangelogs -m %O %A %B %A
