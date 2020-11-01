@@ -6,14 +6,9 @@
 	branch = auto
 	status = auto
 	diff = auto
-[merge]
-	tool = vim3way
 [merge "dpkg-mergechangelogs"]
 	name = debchangelog merge driver
 	driver = dpkg-mergechangelogs -m %O %A %B %A
-[mergetool "vim3way"]
-	cmd = "vim -c 'call mergeutil#threeway()' \"$BASE\" \"$REMOTE\" \"$LOCAL\" \"$MERGED\""
-	trustExitCode = true
 [alias]
 	wdiff = diff --color-words
 [remote-hg]
