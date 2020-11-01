@@ -43,5 +43,6 @@
 	templatedir = ~/.config/git/templates
 [log]
 	mailmap = true
+	decorate = auto
 [pull]
 	ff = only
