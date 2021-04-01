@@ -4,6 +4,13 @@
 !/.config/git/attributes
 !/.config/git/debian.org
 !/.config/git/emc.com
+!/.config/git/emc-templates
+!/.config/git/emc-templates/hooks
+!/.config/git/emc-templates/hooks/ctags
+!/.config/git/emc-templates/hooks/post-checkout-ctags
+!/.config/git/emc-templates/hooks/post-commit-ctags
+!/.config/git/emc-templates/hooks/post-merge-ctags
+!/.config/git/emc-templates/hooks/post-rewrite-ctags
 !/.config/git/templates
 !/.config/git/templates/hooks
 !/.config/git/templates/hooks/ctags
