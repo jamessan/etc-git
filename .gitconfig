@@ -37,6 +37,8 @@
 	decorate = auto
 [pull]
 	ff = only
+[submodule]
+	fetchJobs = 0
 [feature]
 	manyFiles = true
 [blame]
