@@ -45,6 +45,8 @@
 	coloring = repeatedLines
 [branch]
 	sort = -authordate
+[column]
+	ui = auto
 [include]
 	path = ~/.config/git/private
 [includeIf "gitdir:~/src/debian.org/"]
