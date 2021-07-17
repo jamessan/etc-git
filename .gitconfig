@@ -43,6 +43,8 @@
 	manyFiles = true
 [blame]
 	coloring = repeatedLines
+[branch]
+	sort = -authordate
 [include]
 	path = ~/.config/git/private
 [includeIf "gitdir:~/src/debian.org/"]
