@@ -4,6 +4,8 @@
 	signingkey = DFE691AE331BA3DB
 [color]
 	ui = auto
+[merge]
+	conflictStyle = diff3
 [merge "dpkg-mergechangelogs"]
 	name = debchangelog merge driver
 	driver = dpkg-mergechangelogs -m %O %A %B %A
