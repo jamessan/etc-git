@@ -30,6 +30,7 @@
 	mnemonicprefix = true
 	colorMoved = dimmed-zebra
 	colorMovedWS = allow-indentation-change
+	submodule = log
 [credential]
 	helper = cache
 [init]
