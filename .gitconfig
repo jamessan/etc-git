@@ -33,8 +33,6 @@
 	submodule = log
 [credential]
 	helper = cache
-[init]
-	templatedir = ~/.config/git/templates
 [log]
 	mailmap = true
 	decorate = auto
