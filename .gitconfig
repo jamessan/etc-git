@@ -27,6 +27,7 @@
 [fetch]
 	prune = true
 	parallel = 0
+	writeCommitGraph = true
 [diff]
 	mnemonicprefix = true
 	colorMoved = dimmed-zebra
