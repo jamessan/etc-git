@@ -1,5 +1,5 @@
 [user]
-	email = James.McCoy@emc.com
+	email = James.McCoy@dell.com
 [hub]
 	host = eos2git.cec.lab.emc.com
 [diff]
