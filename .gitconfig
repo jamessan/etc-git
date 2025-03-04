@@ -33,6 +33,7 @@
 	colorMoved = dimmed-zebra
 	colorMovedWS = allow-indentation-change
 	submodule = log
+	algorithm = histogram
 [credential]
 	helper = cache
 [log]
@@ -56,3 +57,14 @@
 	path = ~/.config/git/debian.org
 [includeIf "gitdir:/home/cyc/**"]
 	path = ~/.config/git/emc.com
+[tag]
+	sort = version:refname
+[help]
+	autocorrect = prompt
+[commit]
+	verbose = true
+[rerere]
+	enabled = true
+	autoupdate = true
+[rebase]
+	updateRefs = true
